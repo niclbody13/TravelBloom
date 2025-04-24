@@ -6,6 +6,51 @@
     <title>TravelBloom</title>
 </head>
 <body>
-    
+    <div class="outerContainer">
+        <h3>TravelBloom</h3>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact Us</a>
+        </nav>
+        <div class="inputContainer">
+            <input type="text">
+            <button>Search</button>
+            <button>Clear</button>
+        </div>
+    </div>
 </body>
+<style>
+    body, h1, h2, h3, p {
+        margin: 0;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+    }
+    h3 {
+        position: absolute;
+        left: 0;
+    }
+    .outerContainer {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 1rem 0;
+        position: relative;
+        justify-content: center;
+    }
+    button {
+        padding: .25rem;
+        background-color: teal;
+        border: none;
+        border-radius: 5px;
+        margin: 0 0.25rem;
+    }
+    .inputContainer {
+        position: absolute;
+        right: 0;
+    }
+</style>
 </html>
