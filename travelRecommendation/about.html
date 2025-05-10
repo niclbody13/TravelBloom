@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+</head>
+
+<body>
+    <div class="outerContainer">
+        <h3>TravelBloom</h3>
+        <nav>
+            <a href="travel_recommendation.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </div>
+    <h1 class="aboutHeader">About Us</h1>
+    <p class="topMiddleParagraph">Welcome to Our Company! We are a team of passionate individuals dedicated to providing
+        excellent services/products to our customers. Our mission is to <strong>provide the best experience</strong> for
+        people traveling to different destinations around the world. Our values include integrity, innovation, customer
+        satisfaction, and teamwork. We believe in <strong>putting our customers first</strong> and <strong>working
+            together</strong> to achieve our goals. Feel free to explore our website to learn more about what we offer!
+    </p>
+    <div class="ourTeamSection">
+        <h2 class="ourTeamHeader">Our Team</h2>
+        <div class="teamCards">
+            <div class="teamCard">
+                <h3>John Doe</h3>
+                <p>John Doe is responsible for...</p>
+                <div class="position">
+                    <p>CEO</p>
+                </div>
+                <!-- <p>CEO</p> -->
+            </div>
+            <div class="teamCard">
+                <h3>Celina Thomas</h3>
+                <p>Celina Thomas is responsible for...</p>
+                <div class="position">
+                    <p>Team Lead</p>
+                </div>
+                <!-- <p>CTO</p> -->
+            </div>
+            <div class="teamCard">
+                <h3>Mike Tysen</h3>
+                <p>Mike Tysen is responsible for...</p>
+                <div class="position">
+                    <p>Delivery Head</p>
+                </div>
+                <!-- <p>COO</p> -->
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-image: url("https://plus.unsplash.com/premium_photo-1694475411899-ebbce0efaf75?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmV3JTIweW9yayUyMGNpdHklMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D");
+            background-size: cover;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.25rem;
+        }
+
+        h3 {
+            position: absolute;
+            left: 0;
+        }
+
+        .textContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            text-align: left;
+            gap: 2rem;
+            padding-left: 2rem;
+        }
+
+        .textContainer p,
+        h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 0.5rem;
+        }
+
+        .outerContainer {
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 1rem 0;
+            position: relative;
+            justify-content: center;
+        }
+
+        button {
+            padding: .25rem;
+            background-color: teal;
+            border: none;
+            border-radius: 5px;
+            margin: 0 0.25rem;
+        }
+
+        .inputContainer {
+            position: absolute;
+            right: 0;
+        }
+
+        .aboutHeader {
+            position: absolute;
+            top: 6rem;
+            left: 2rem;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .topMiddleParagraph {
+            position: absolute;
+            top: 12rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5rem;
+            color: white;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 0.5rem;
+            border-radius: 10px;
+        }
+
+        .ourTeamSection {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 18rem;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .ourTeamHeader {
+            font-size: 2.5rem;
+            margin-right: 2rem;
+            color: white;
+        }
+
+        .teamCards {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .teamCard {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            width: 10rem;
+            height: 10rem;
+        }
+
+        .teamCard h3 {
+            /* margin: 0; */
+            margin-bottom: 0.5rem;
+            position: relative;
+            /* font-size: 1.5rem; */
+        }
+
+        .teamCard>p {
+            position: relative;
+            /* margin: 0.5rem 0 0; */
+            margin-bottom: 1rem;
+            /* font-size: 1rem; */
+        }
+
+        .position {
+            background-color: rgba(128, 0, 128, 0.5);
+            border-radius: 15px;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</body>
+
+</html>
